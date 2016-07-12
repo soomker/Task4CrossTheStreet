@@ -38,7 +38,6 @@ namespace Task4CrossTheStreet
 
        protected void Go(string light)
         {
-            // Console.WriteLine(e.CurrLight);
             OnHumanAction(this, new HumanActionEventArgs(light, DateTime.Now));
             Console.WriteLine("I'm " + name + " and i'm going!!!");
             
