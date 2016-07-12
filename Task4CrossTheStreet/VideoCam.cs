@@ -53,10 +53,10 @@ namespace Task4CrossTheStreet
         public string GetStatistic(string light)
         {
             StringBuilder result = new StringBuilder();
-            result.AppendLine(String.Format(" At {0} crossed the street {1} humans /n", light, statistic[light].Count));
+            result.AppendLine(String.Format(" At {0} crossed the street {1} humans ", light, statistic[light].Count));
             foreach (Stat st in statistic[light])
             {
-                result.AppendLine(String.Format(" At {0}, crossed the road : {1} at {2} /n", light, st.Human.Name, st.Date.Date));
+                result.AppendLine(String.Format(" At {0}, crossed the road : {1} at {2} ", light, st.Human.Name, st.Date.Date));
             }
             return result.ToString(); ;
         }
