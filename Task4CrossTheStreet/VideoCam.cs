@@ -30,7 +30,7 @@ namespace Task4CrossTheStreet
 /// <summary>
 /// Full Stat
 /// </summary>
-/// <returns></returns>
+/// <returns> </returns>
         public string GetStatistic()
         {
             StringBuilder result = new StringBuilder();
