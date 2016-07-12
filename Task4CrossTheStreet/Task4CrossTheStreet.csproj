@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BadHuman.cs" />
+    <Compile Include="Human.cs" />
+    <Compile Include="HumanActionEventArgs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stat.cs" />
+    <Compile Include="Svetofor.cs" />
+    <Compile Include="SvetoforEvenAgs.cs" />
+    <Compile Include="VideoCam.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
